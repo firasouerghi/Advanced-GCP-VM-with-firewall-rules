@@ -2,10 +2,10 @@
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+[![Stargazers][stars-shield]][github.com/firasouerghi/GCP_instance_module/blob/main/LICENSE]
+[![Issues][issues-shield]][github.com/firasouerghi/GCP_instance_module/issues]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/firas-ouerghi/]
+[![LinkedIn][linkedin-shield]][linkedin.com/in/firas-ouerghi/]
 
 
 
