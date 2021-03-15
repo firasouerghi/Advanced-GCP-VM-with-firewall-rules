@@ -83,10 +83,11 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Terraform
   ```sh
-  npm install npm@latest -g
+    $ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+    $ sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+    $ sudo apt-get update && sudo apt-get install terraform
   ```
 
 ### Installation
@@ -95,10 +96,17 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/firasouerghi/GCP_instance_module.git
    ```
-2. Install Terraform
+2. Start the infrastructure provisioning
    ```sh
-   npm install
+   $ terraform init
+   $ terraform validate
+   $ terraform plan
+   $ terraform apply
    ```
+3. Destroy the created infrastructure
+   '''sh
+      $ terraform destroy
+   '''
 
 
 
