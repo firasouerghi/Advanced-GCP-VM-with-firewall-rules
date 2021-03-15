@@ -47,7 +47,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#project setup">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -83,14 +83,14 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-* Terraform
+* Terraform installation
   ```sh
     $ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
     $ sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
     $ sudo apt-get update && sudo apt-get install terraform
   ```
 
-### Installation
+### Project setup
 
 1. Clone the repo
    ```sh
