@@ -122,13 +122,16 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/firasouerghi/GCP_instance_module.git
    ```
-2. Make sure to assign your variables in the [terraform.tfvars](https://github.com/firasouerghi/GCP_instance_module/blob/main/terraform.tfvars) file.
+2. Make sure to assign the right values to your variables in the [terraform.tfvars](https://github.com/firasouerghi/GCP_instance_module/blob/main/terraform.tfvars) file.
 
-| Variable | Description |
-|----------|-------|
-`project` | your GCP project ID
-`credentials_file` | Path to your GCP json cridential file
-`ssh_key_file` | path to your ssh public key
+    | Variable | Description |
+    |----------|-------|
+    `project` | your GCP project ID
+    `credentials_file` | Path to your GCP json cridential file
+    `ssh_key_file` | path to your ssh public key
+    `zone` | your favorite zone
+    `region` | your favorite region
+    `envvironment` | can be dev, test or prod based on which your going to make your machine type
 
 
 
