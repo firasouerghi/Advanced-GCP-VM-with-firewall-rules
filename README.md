@@ -47,7 +47,6 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#project setup">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -90,7 +89,12 @@ To get a local copy up and running follow these simple steps.
     $ sudo apt-get update && sudo apt-get install terraform
   ```
 
-### Project setup
+
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
 
 1. Clone the repo
    ```sh
@@ -107,16 +111,6 @@ To get a local copy up and running follow these simple steps.
    ```sh
       $ terraform destroy
    ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 
 
 <!-- ROADMAP -->
