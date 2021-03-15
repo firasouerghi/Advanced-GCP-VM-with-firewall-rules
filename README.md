@@ -62,9 +62,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-**This project contains all the necessary steps and files to set up and provision an advanced GCP compute instance hosting an nginx server**
+**This project contains all the necessary steps and files to set up and provision an advanced GCP compute instance with hosting an nginx server**
 
 
 ### Project structure
@@ -92,7 +90,7 @@
 * [variables.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/variables.tf)
 
   Contains all the variables definitions.
-  
+
 * [terraform.tfvars](https://github.com/firasouerghi/GCP_instance_module/blob/main/terraform.tfvars)
 
   Used to assign values to our variables.
@@ -124,14 +122,24 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/firasouerghi/GCP_instance_module.git
    ```
-2. Start the infrastructure provisioning
+2. Make sure to assign your variables in the [terraform.tfvars](https://github.com/firasouerghi/GCP_instance_module/blob/main/terraform.tfvars) file.
+
+| Variable | Description |
+|----------|-------|
+`project` | your GCP project ID
+`credentials_file` | Path to your GCP json cridential file
+`ssh_key_file` | path to your ssh public key
+
+
+
+3. Start the infrastructure provisioning
    ```sh
    $ terraform init
    $ terraform validate
    $ terraform plan
    $ terraform apply
    ```
-3. Destroy the created infrastructure
+4. Destroy the created infrastructure
    ```sh
       $ terraform destroy
    ```
