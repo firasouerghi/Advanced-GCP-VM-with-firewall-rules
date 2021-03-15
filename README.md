@@ -15,20 +15,8 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Advanced google compute instance creation with terraform</h3>
+  <h3 align="center">Advanced GCP instance creation with terraform</h3>
 
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/firasouerghi/GCP_instance_module"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/firasouerghi/GCP_instance_module">View Demo</a>
-    ·
-    <a href="https://github.com/firasouerghi/GCP_instance_module/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/firasouerghi/GCP_instance_module/issues">Request Feature</a>
-  </p>
 </p>
 
 
@@ -62,7 +50,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-**This project contains all the necessary steps and files to set up and provision an advanced GCP compute instance with hosting an nginx server**
+**This project contains all the necessary steps and files to set up and provision an advanced GCP compute instance hosting an nginx server**
 
 
 ### Project structure
