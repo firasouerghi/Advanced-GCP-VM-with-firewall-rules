@@ -24,7 +24,7 @@ variable "environment" {
   description = "environment type"
 
 }
-variable "machine_type" {
+variable "machine_types" {
   type = map(any)
   default = {
     dev  = "f1-micro"
@@ -36,6 +36,6 @@ variable "machine_type" {
 
 variable "ssh_key_file" {
   type        = string
-  description = "public ssh key"
+  description = "path to public ssh key"
 
 }
