@@ -7,7 +7,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues]][issues-url]
 [![MIT License]][license-url]-->
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -144,17 +143,17 @@ Distributed under the Apache License 2.0. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-
+[![LinkedIn][linkedin-shield]][linkedin-url]
 [Firas Ouerghi](mailto:ouerghifir@gmail.com) 
 
 Project Link: [https://github.com/firasouerghi/GCP_instance_module](https://github.com/firasouerghi/GCP_instance_module)
 
 
 
-<!-- ACKNOWLEDGEMENTS -->
+<!-- ACKNOWLEDGEMENTS 
 ## Acknowledgements
 
-* []()
+* []()-->
 
 
 
