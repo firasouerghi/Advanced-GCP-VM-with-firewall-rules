@@ -27,23 +27,39 @@ resource "google_compute_network" "vpc_network" {
 }
 
 
+/* additional disk resource */
+
+resource "google_compute_disk" "additional_disk" {
+  name = "new-disk"
+  size = 40
+  type = "pd-ssd"
+  zone = var.zone
+
+}
+
+/* disk attachement resource */
+
+resource "google_compute_attached_disk" "attachment_disk" {
+  disk      = google_compute_disk.additional_disk.id
+  instance = google_compute_instance.nginx_server.id 
+}
 
 
 /* compute instance resource */
 
 resource "google_compute_instance" "nginx_server" {
-  name                    = "nginx-server"
-  machine_type            = var.machine_types[var.environment]
-  zone                    = var.zone
-  description             = "Virtual machine that is going to host our nginx server "
-  tags                    = ["allow-http", "allow-https", "allow-icmp", "allow-ssh"] # firewall
+  name         = "nginx-server"
+  machine_type = var.machine_types[var.environment]
+  zone         = var.zone
+  description  = "Virtual machine that is going to host our nginx server "
+  tags         = ["allow-http", "allow-https", "allow-icmp", "allow-ssh"] # firewall
   metadata = {
-    "ssh-keys" = "heroku:${file(var.ssh_key_file)}"
-    "startup-script"= "apt-get update -y && apt-get install -y nginx"
+    "ssh-keys"       = "heroku:${file(var.ssh_key_file)}"
+    "startup-script" = "apt-get update -y && apt-get install -y nginx"
   }
 
   boot_disk {
-      auto_delete = true
+    auto_delete = true
     initialize_params {
       image = "ubuntu-os-cloud/ubuntu-2004-lts"
       size  = 15
@@ -51,7 +67,7 @@ resource "google_compute_instance" "nginx_server" {
     }
   }
   network_interface {
-    network = google_compute_network.vpc_network.id
+    network    = google_compute_network.vpc_network.id
     subnetwork = google_compute_subnetwork.vpc_subnet.id
     access_config {
 
