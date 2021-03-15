@@ -70,8 +70,9 @@
 ### Project structure
 
 * [version.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/version.tf)
- <p> kf,k,fkez,fk,zkle,fkl,ez
- dsdsfsdgdsvvvvvvvvvvvvvvvvvvvv</p>
+
+   Defines the required version of Terraform and google provider 
+
 * [provider.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/provider.tf)
 * [main.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/main.tf)
 * [firewall.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/firewall.tf)
