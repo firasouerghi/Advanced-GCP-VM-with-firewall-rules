@@ -104,9 +104,9 @@ To get a local copy up and running follow these simple steps.
    $ terraform apply
    ```
 3. Destroy the created infrastructure
-   '''sh
+   ```sh
       $ terraform destroy
-   '''
+   ```
 
 
 
