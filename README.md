@@ -132,11 +132,7 @@ To get a local copy up and running follow these simple steps.
     `zone` | your favorite zone
     `region` | your favorite region
     `envvironment` | can be dev, test or prod based on which your going to make your machine type choice
-    `machine_types` | is a map { dev  = "f1-micro"
-                                test = "n1-highcpu-32"
-                                prod = "n1-highcpu-32"
-                                }
-                                that have the environment type as a key and the machine type as a value
+    `machine_types` | is a map { dev  = "f1-micro" test = "n1-highcpu-32" prod = "n1-highcpu-32" } that have the environment type as a key and the machine type as a value
 
 
 
