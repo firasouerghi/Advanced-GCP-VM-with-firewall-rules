@@ -1,4 +1,4 @@
-# GCP_instance_module
+# Advanced GCP VM instance and firewall rules with Terraform 
 
 
 
