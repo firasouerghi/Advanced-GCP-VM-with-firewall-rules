@@ -71,14 +71,27 @@
 
 * [version.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/version.tf)
 
-   Defines the required version of Terraform and google provider 
+   Defines the required version of Terraform and the provider version and repository to use.
 
 * [provider.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/provider.tf)
+
+  Defines the required variables to initialize the Terraform with our provider.
+
 * [main.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/main.tf)
+
+  Defines the main resources that we are going to create.
+
 * [firewall.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/firewall.tf)
+
+  Defines the associated firewall rules to our network resource in our case we are going to allow http, https, ssh, and ICMP protocols.
+
 * [output.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/output.tf)
+  Defines the output variables to display once our infrastructure is created: in our case we will output our VM public ip address. 
 * [variables.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/variables.tf)
+  Contains all the variables definitions.
 * [terraform.tfvars](https://github.com/firasouerghi/GCP_instance_module/blob/main/terraform.tfvars)
+
+  Used to assign values to our variables.
 
 
 
