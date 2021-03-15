@@ -69,9 +69,13 @@
 
 ### Project structure
 
-* []()
-* []()
-* []()
+* [version.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/version.tf)
+* [provider.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/provider.tf)
+* [main.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/main.tf)
+* [firewall.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/firewall.tf)
+* [output.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/output.tf)
+* [variables.tf](https://github.com/firasouerghi/GCP_instance_module/blob/main/variables.tf)
+* [terraform.tfvars](https://github.com/firasouerghi/GCP_instance_module/blob/main/terraform.tfvars)
 
 
 
@@ -146,7 +150,6 @@ Distributed under the Apache License 2.0. See `LICENSE` for more information.
 
 email: [Firas Ouerghi](mailto:ouerghifir@gmail.com) 
 
-Project Link: [https://github.com/firasouerghi/GCP_instance_module](https://github.com/firasouerghi/GCP_instance_module)
 
 
 
