@@ -12,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/firasouerghi/GCP_instance_module">
-    <img src="images/logo.png" alt="Logo" width="600" height="100">
+    <img src="images/logo.png" alt="Logo" width="900" height="300">
   </a>
 
   <h3 align="center">Advanced GCP instance creation with terraform</h3>
