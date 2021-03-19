@@ -15,7 +15,7 @@
     <img src="images/logo.png" alt="Logo" width="900" height="300">
   </a>
 
-  <h3 align="center">Advanced GCP instance creation with terraform</h3>
+  <h3 align="center">Advanced GCP instance provisioning with terraform</h3>
 
 </p>
 
