@@ -108,7 +108,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/firasouerghi/GCP_instance_module.git
+   git clone https://github.com/firasouerghi/Advanced-GCP-VM-with-firewall-rules.git
    ```
 2. Make sure to assign the right values to your variables in the [terraform.tfvars](https://github.com/firasouerghi/GCP_instance_module/blob/main/terraform.tfvars) file.
 
